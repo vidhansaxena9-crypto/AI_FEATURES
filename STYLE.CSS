@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0a0f1f, #05070d);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Particle Canvas */
+#particles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 8%;
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+}
+
+.logo span {
+  color: cyan;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero span {
+  color: #00ffff;
+  border-right: 2px solid cyan;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background: linear-gradient(90deg, cyan, magenta);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+/* Sections */
+.section {
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.dark {
+  background: #0c1222;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 40px;
+  width: 250px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(0,255,255,0.2);
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px cyan;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 25px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Demo Section */
+.demo-container {
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1100px;
+  height: 600px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(0,255,255,0.3);
+  box-shadow: 0 0 25px rgba(0,255,255,0.2);
+}
+
+.demo-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.demo-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, cyan, magenta);
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.service-card {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.service-card i {
+  font-size: 40px;
+  color: cyan;
+  transition: 0.3s;
+}
+
+.service-card h4 {
+  font-size: 20px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Hover Animation */
+.service-card:hover i {
+  transform: scale(1.2);
+  color: magenta;
+}
+
+
