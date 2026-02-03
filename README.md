@@ -1,6 +1,4 @@
-# AI_FEATURES
-AI_FEATURES
-[INDEX.HTML](https://github.com/user-attachments/files/25020066/INDEX.HTML)
+[INDEX.HTML](https://github.com/user-attachments/files/25029309/INDEX.HTML)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,11 +83,11 @@ AI_FEATURES
   </section>
 
 
-  <script src="script.js"></script>
+  <script src="script.js"></script 
 </body>
 </html>
-
-[STYLE.CSS](https://github.com/user-attachments/files/25020068/STYLE.CSS)* {
+[STYLE.CSS](https://github.com/user-attachments/files/25029318/STYLE.CSS)
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -284,7 +282,7 @@ button {
   color: magenta;
 }
 
-[SCRIPT.JS](https://github.com/user-attachments/files/25020076/SCRIPT.JS)
+[SCRIPT.JS](https://github.com/user-attachments/files/25029320/SCRIPT.JS)
 // Typing Effect
 const words = ["AI Websites", "Smart Solutions", "Future Experiences"];
 let i = 0, j = 0, currentWord = "", isDeleting = false;
@@ -345,7 +343,6 @@ function animateParticles() {
   requestAnimationFrame(animateParticles);
 }
 animateParticles();
-
 
 
 
