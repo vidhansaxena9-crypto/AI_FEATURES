@@ -1,4 +1,4 @@
-[INDEX.HTML](https://github.com/user-attachments/files/25029309/INDEX.HTML)
+[INDEX.HTML](https://github.com/user-attachments/files/25029556/INDEX.HTML)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,19 +39,19 @@
   <h3>AI Services</h3>
   <div class="cards">
 
-    <a href="https://example.com/chatbot" target="_blank" class="card service-card">
+    <a href="https://deepai.org/chat" target="_blank" class="card service-card">
       <i class="fa-solid fa-robot"></i>
       <h4>AI Chatbots</h4>
       <p>Smart automated conversations</p>
     </a>
 
-    <a href="https://example.com/data" target="_blank" class="card service-card">
+    <a href="https://www.ibm.com/think/topics/data-intelligence" target="_blank" class="card service-card">
       <i class="fa-solid fa-chart-line"></i>
       <h4>Data Intelligence</h4>
       <p>Insights powered by AI</p>
     </a>
 
-    <a href="https://example.com/ml" target="_blank" class="card service-card">
+    <a href="https://aws.amazon.com/ai/?trk=36e94e60-4afc-4f7c-b732-139b1be35182&sc_channel=ps&trk=4bd3427d-426c-4103-b563-4dee1e4af16c&sc_channel=ps&ef_id=:G:s&s_kwcid=AL!4422!10!71605979241308!!!!71606539997996!!487405169!1145692960812696&msclkid=13c5a80529ae1cb3a356c1844d2a35da" target="_blank" class="card service-card">
       <i class="fa-solid fa-brain"></i>
       <h4>Machine Learning</h4>
       <p>Predictive & adaptive systems</p>
@@ -83,11 +83,11 @@
   </section>
 
 
-  <script src="script.js"></script 
+  <script src="script.js"></script>
 </body>
 </html>
-[STYLE.CSS](https://github.com/user-attachments/files/25029318/STYLE.CSS)
-* {
+
+[STYLE.CSS](https://github.com/user-attachments/files/25029560/STYLE.CSS)* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -282,7 +282,8 @@ button {
   color: magenta;
 }
 
-[SCRIPT.JS](https://github.com/user-attachments/files/25029320/SCRIPT.JS)
+
+[SCRIPT.JS](https://github.com/user-attachments/files/25029564/SCRIPT.JS)
 // Typing Effect
 const words = ["AI Websites", "Smart Solutions", "Future Experiences"];
 let i = 0, j = 0, currentWord = "", isDeleting = false;
